@@ -425,7 +425,7 @@
         </div>
 
         <div class="footer-soc-wrap">
-          <h2 class="footer-title">Social media</h2>
+          <p class="footer-title">Social media</p>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link link">
@@ -459,7 +459,7 @@
         </div>
 
         <div class="footer-subcribe-wrap">
-          <h2 class="footer-title">Subscribe </h2>
+          <p class="footer-title">Subscribe </p>
           <form class="online-form">
             <input
               type="email"
@@ -480,8 +480,8 @@
 
     <!-- MODAL-->
 
-    <div class="backdrop" data-modal>
-      <!-- <div class="backdrop is-hidden"data-modal="data-modal"> -->
+    <!-- <div class="backdrop" data-modal> -->
+    <div class="backdrop is-hidden" data-modal="data-modal">
       <div class="modal">
         <button
           class="modal-close"
@@ -549,7 +549,7 @@
             </div>
           </div>
 
-          <div class="modal-field-wrap">
+          <div class="modal-comment-wrap">
             <label for="id-userComment" class="modal-input-text">Comment</label>
             <textarea
               name="userComment"
@@ -562,25 +562,23 @@ Text input
 
           <!--checkbox -->
 
-          <div class="modal-field-wrap">
-            <input
-              class="modal-check visually-hidden"
-              type="checkbox"
-              id="id-policy"
-              name="policy"
-              value="true"
-              required="required"
-            />
-            <label for="id-policy" class="check-text">
-              <span>
-                <svg class="modal-check-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Vector"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the &nbsp
-              <a class="Privacy-Policy" href="">Privacy Policy</a>
-            </label>
-          </div>
+          <input
+            class="modal-check visually-hidden"
+            type="checkbox"
+            id="id-policy"
+            name="policy"
+            value="true"
+            required="required"
+          />
+          <label for="id-policy" class="check-text">
+            <span>
+              <svg class="modal-check-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the &nbsp
+            <a class="Privacy-Policy" href="">Privacy Policy</a>
+          </label>
 
           <button type="submit" class="submit-btn">Send</button>
         </form>
